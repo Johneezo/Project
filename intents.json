@@ -1,0 +1,855 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good day", "Greetings", "Is anyone there?", "Hey there", "Hello there",
+        "Anyone around?", "Can I get help?", "Hi, I need help", "Hello, are you there?", "Yo",
+        "Just checking in", "Good morning", "Good afternoon", "Good evening", "Hi bot"
+      ],
+      "responses": [
+        "Hi there, welcome! I can help with admissions, results, fees, and more.",
+        "Good day! Feel free to ask any questions about the Copperbelt University specifically related to admission, examination and registration."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "I'm leaving", "Talk to you later", "Catch you later",
+        "That's all for now", "Thanks, I'm done", "I'm out", "Signing off",
+        "Thank you", "Thanks", "Thanks a lot", "I appreciate it", "Grateful", "Much appreciated",
+        "You helped a lot", "Thanks for the help", "Cheers", "Thanks so much", "Appreciate it"
+      ],
+      "responses": [
+        "See you later, thanks for visiting! if you have any query or complaint feel free",
+        "Have a nice day! happy to help and hope i have handled the query to the full expectations",
+        "Bye! Come back again soon."
+      ]
+    },
+    
+{
+  "tag": "greeting",
+  "patterns": [
+    "Hello",
+    "Hi",
+    "Good morning",
+    "Good evening",
+    "Hey there",
+    "Is anyone there?",
+    "Howdy"
+  ],
+  "responses": [
+    "Hello! How can I assist you today?",
+    "Hi there! Need help with anything academic or campus-related?",
+    "Greetings! How may I help you?"
+  ]
+},
+
+
+{
+  "tag": "thank_you",
+  "patterns": [
+    "Thank you",
+    "Thanks a lot",
+    "I appreciate it",
+    "Grateful"
+  ],
+  "responses": [
+    "You're welcome!  Let me know if you have more questions",
+    "Happy to help!  Let me know if you have more questions" ,
+    "Anytime. Let me know if you have more questions!"
+  ]
+},
+
+
+    {
+      "tag": "introduce_bot",
+      "patterns": [
+        "Who are you", "What can you do?", "Are you a real person?", "Tell me about yourself",
+        "What kind of bot are you?", "Are you human?", "Are you human", "Who built you?", "What's your purpose?",
+        "Why are you here?", "What do you do"
+      ],
+      "responses": [
+        "I'm your virtual assistant for Academic Affairs. I'm here to help with course issues, transcripts, registration, and more.",
+        "I’m a student support chatbot trained to answer common academic queries. How may I help you today?",
+        "I’m not a real person, but I’m smart enough to guide you with your academic-related questions!"
+      ]
+    },
+    {
+      "tag": "ready_to_help",
+      "patterns": [
+        "I need help", "Can you help me?", "I have a problem", "I'm facing issues", "Help me with something",
+        "I need assistance", "Something's wrong", "I need support", "I'm stuck", "Can we talk?",
+        "I want to talk", "Got a minute?"
+      ],
+      "responses": [
+        "Sure, I'm here to help! Please describe your issue in detail.",
+        "Of course! Let me know what's going on and I’ll do my best to assist.",
+        "I'm ready to help. What academic issue are you facing?", "academic issue are you facing"
+      ]
+    },
+    {
+      "tag": "location_campus",
+      "patterns": [
+        "Where is CBU located?", "CBU location", "Address of Copperbelt University", "How do I get to CBU Kitwe?",
+        "CBU Riverside address", "CBU Kitwe location", "physical location", "Where is the university?",
+        "Directions to CBU", "Is CBU in Kitwe?", "University address", "Find CBU", "Jambo Drive"
+      ],
+      "responses": [
+        "Copperbelt University Riverside Campus is located on Jambo Drive, Riverside, Kitwe, Zambia. PO Box 21692, Kitwe.",
+        "You can find Copperbelt University in the Riverside area of Kitwe.",
+        "Our main campus is in Kitwe, Riverside. Welcome!"
+      ]
+    },
+    {
+      "tag": "programs_offered",
+      "patterns": [
+        "What programs are offered?", "List of programs", "What can I study at CBU?", "Undergraduate and postgraduate courses visit: ",
+        "What programs are available at CBU?", "Do you offer Computer Science?", "List of courses offered",
+        "Available degrees at CBU?", "What can I study?", "I want to know what courses are offered",
+        "Programs at CBU", "What degrees does CBU have?", "Courses offered", "Study options", "Undergraduate programs"
+      ],
+      "responses": [
+        "CBU offers programs in Engineering, Health Sciences, Natural Sciences, Business, Built Environment, Education, and more. Visit https://www.cbu.ac.zm under academics",
+        "From diplomas to PhDs, CBU provides a wide range of programs across various faculties. Visit https://www.cbu.ac.zm and check under Academics",
+        "Visit https://www.cbu.ac.zm/academics for a full list of academic programs offered at CBU."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "What are the requirements for admission?", "Admission criteria", "What do I need to apply?",
+        "How do I get accepted into CBU?", "What are the admission requirements?", "What qualifications do I need to apply?",
+        "Do I need Grade 12 results to apply?", "Who can apply to CBU?", "Do I qualify for admission?",
+        "Minimum admission requirements","requirements for admission", "O-Level requirements", "Entry requirements", "Admission qualifications",
+        "I have O-Levels, can I apply?", "Need 5 credits", "Math and English required"
+      ],
+      "responses": [
+        "To be eligible for admission, candidates must have at least five 'O' Level credits including English and Mathematics. you can t visit: https://www.cbu.ac.zm/admissions for detailed admission",
+        "Admission requirements depend on the program. Generally, 5 O-level credits including English and Mathematics are needed for undergraduate programs. visit: https://www.cbu.ac.zm/admissions for detailed admission",
+        "Please visit https://www.cbu.ac.zm/admissions for detailed admission criteria by faculty."
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+        "How do I apply to CBU?", "CBU application process", "Steps for applying", "Application portal",
+        "apply online", "I want to apply", "Need to submit my application", "Starting my CBU application",
+        "Where can I submit my application?", "Is there an online application system?", "Start my application",
+        "Apply now", "I'm applying for admission", "How to apply?", "Application procedure",
+        "I applied already, what next?", "Online application", "Opus portal"
+      ],
+      "responses": [
+        "You can apply online via the Copperbelt University Online Application System. Visit https://www.cbu.ac.zm/opus/applyNew to start your application.",
+        "To apply, visit the CBU official site: https://www.cbu.ac.zm choose Admissions → Apply Now. Create an application profile and follow prompts.",
+        "YOUR CAREER JOURNEY BEGINS HERE: APPLY NOW at https://www.cbu.ac.zm"
+      ]
+    },
+    {
+      "tag": "application_deadline",
+      "patterns": [
+        "When is the application deadline?", "What's the last day to apply?", "Are applications still open?",
+        "Deadline for admission?", "Can I still apply?", "Is it too late to apply?", "Application closing date",
+        "When does application end?", "Last date to apply", "last day to apply","last day to application", "closing date for Application", "last day of application"
+      ],
+      "responses": [
+        "The Copperbelt University invites applications for the Academic Year 2025/2026 commencing in November 2025. Check https://www.cbu.ac.zm for updates."
+      ]
+    },
+    {
+      "tag": "admission_status",
+      "patterns": [
+        "How do I check my admission status?", "after applying now how do i check if iam admitted or not",
+        "Where can I track my application?", "Admission status portal", "Track my CBU application", "Was I accepted?",
+        "Did I get in?", "Application result", "Check if I was accepted", "Am I admitted?", "admission status", "checking admission status", "how can i check if admitted or not"
+      ],
+      "responses": [
+        "You can track your application status by trying to log in on your student portal using your student number and default password for the first time which is test1234 or wait for the list to come out of admitted students. track updates by visiting:https://www.cbu.ac.zm "
+      ]
+    },
+    {
+      "tag": "tuition_fees",
+      "patterns": [
+        "How much is tuition?", "Tuition fees at CBU", "Fees per semester", "What are the payment plans?",
+        "How much is tuition? 2024", "tuition fees 2024", "programme fees", "semester charges",
+        "How much does CBU cost?", "Fee structure", "cost of studying here?", "Pay school fees", "Tuition fees"
+      ],
+      "responses": [
+        "You can find a detailed fee structure at https://www.cbu.ac.zm/tuition-fees. but Tuition fee varies  depending on the program",
+        "Tuition fee varies. Engineering costs around K32,000/yearster; non-lab programs ~K22,833. Paid at ZANACO. check out at: https://www.cbu.ac.zm/tuition-fees. for Tuition fee depending on the program"
+      ]
+    },
+    {
+      "tag": "hostel_information",
+      "patterns": [
+        "Does CBU provide accommodation?", "How do I book a hostel?", "CBU hostels", "Accommodation options",
+        "Accommodation fees", "hostel bed space fees", "How to book a hostel", "on-campus accommodation",
+        "I need a hostel", "Want to live on campus", "Is housing available?", "Hostel application",
+        "Where can I get a hostel form?", "Campus housing", "provide accommodation"
+      ],
+      "responses": [
+        "Yes, CBU offers hostel accommodation on campus. However, spaces are limited.",
+        "You can apply for accommodation through the student affairs department.",
+        "Hostel fees range from approximately K4,538 to K6,050 per sessional term. Apply online via the Accommodation Office."
+      ]
+    },
+    {
+      "tag": "examination_results",
+      "patterns": [
+        "How do I check my exam results?", "Where can I find results?", "When are results released?", "Exam results portal",
+        "Check my results", "Looking for my marks", "My results aren't showing", "Results not out yet?",
+        "Can't see my grades", "Want to view my exam performance", "Where are my grades?", "when are results published results",
+        "Results not published", "When will results come out?", "check results"
+      ],
+      "responses": [
+        "Results are published online once approved by the Senate and you can check your results via the CBU Student portal after login locate: EXAMINATION and just tap on Results."
+      ]
+    },
+    {
+      "tag": "exam_slip",
+      "patterns": [
+        "How do I print my exam slip?", "Where can I find my exam slip?", "I need to print my exam pass",
+        "Exam slip printing instructions", "Where do I get my exam slip?", "Do I need an exam slip?",
+        "lost my exam slip", " lost the exam slip", "Print exam slip", "Can't find my exam slip", "Exam pass",
+        "Reprint exam slip", "No exam slip showing"
+      ],
+      "responses": [
+        "Log into the Student portal before printing the exam slip just at the pottom of the page, you first have to do course evaluation then proceed to printing'Exam Slip'. Ensure your account is cleared before printing.Lost slips must be reprinted"
+         
+      ]
+    },
+    {
+      "tag": "exam_hall_entry_rules",
+      "patterns": [
+        "Can I enter the exam hall late?", "Exam hall rules?", "What do I need to bring to exams?",
+        "Are calculators allowed in exams?", "What happens if I'm caught cheating?", "Can I bring my phone into the exam hall?",
+        "When should I arrive for exams?", "Exam regulations", "Late for exam", "What if I'm late?",
+        "No phone in exam", "Exam conduct", "Cheating in exams", "Allowed in exam hall", "Exam rules"
+      ],
+      "responses": [
+        "You must present both your student ID and exam slip. No one is allowed into the exam hall later than 30 minutes after the exam begins. Mobile phones and unauthorized materials are strictly prohibited. Calculators may be allowed depending on the exam guidelines and the course."
+      ]
+    },
+    {
+      "tag": "deferred_exam_process",
+      "patterns": [
+        "How can I apply for a deferred exam?", "What if I'm ill during exams?", "Deferred exam process",
+        "What happens if I miss an exam due to illness?", "Can I defer my exam for personal reasons?",
+        "was sick during exams", "deferred exam", "Missed exam due to sickness", "Medical deferment",
+        "I couldn't attend exam", "Ask for deferred", "How to apply for deferred", "exam for personal reasons"
+      ],
+      "responses": [
+        "If you're unable to attend an exam due to illness or hardship, inform the Chief Invigilator, obtain a medical report, and submit it with an application to the Dean before the exam date for consideration."
+      ]
+    },
+    {
+      "tag": "complaints_procedure",
+      "patterns": [
+        "How do I lodge a complaint?", "I have a complaint", "Where can I report issues?", "Academic complaints",
+        "I'm not happy with my results", "There's a problem with my course", "I need to report an issue",
+        "Something went wrong", "This isn't fair", "I want to appeal my grade", "Exam appeals", "Missing marks",
+        "Report a problem", "Raise a concern", "File a complaint"
+      ],
+      "responses": [
+        "You can submit academic complaints through the academic office or the online complaint portal.",
+        "Use the student helpdesk or contact your departmental head to raise formal concerns.",
+        "We value feedback. Complaints can be submitted directly through the AI system or to the dean's office."
+      ]
+    },
+    {
+      "tag": "transcript_request",
+      "patterns": [
+        "How do I request my transcript?", "I need my academic transcript", "Where can I get my transcript?",
+        "Transcript application process?", "Request transcript", "Order transcript", "Pick up transcript",
+        "Transcript by mail", "How long does transcript take?"
+      ],
+      "responses": [
+        "Go to your student portal and use the ‘Transcript Request’ section. You’ll need your NRC and proof of clearance.",
+        "Transcripts are processed within 7 working days. You can pick it up or request it to be mailed.",
+        "Visit the Records Office with your details, or submit a transcript request online."
+      ]
+    },
+    {
+      "tag": "course_registration_issue",
+      "patterns": [
+        "I can't register for my course", "Course not showing during registration", "Having trouble registering for classes",
+        "Registration portal is not working", "Can't register", "Registration failed", "Courses not loading",
+        "Error during registration", "Help with registration"
+      ],
+      "responses": [
+        "Please make sure the course is available this academic year. If the issue continues, contact Academic Affairs with your student ID and course code.",
+        "Check if you meet the prerequisites. If yes, you can report this issue to the Academic Office directly.",
+        "Try clearing your browser cache or using another browser. If that doesn't work, Academic Affairs will assist you further."
+      ]
+    },
+    {
+      "tag": "missing_course",
+      "patterns": [
+        "One of my courses is missing", "I can't find my course on the portal", "Why is a course not appearing in my list?",
+        "Course disappeared from my registration", "Course not showing", "Where is my course?","course missing"
+      ],
+      "responses": [
+        "Please share the course code and your student ID. The issue might be a system delay or course scheduling problem.",
+        "This could be a departmental update. You may submit the complait and  share the course code and your student ID.",
+        "It’s possible the course isn’t offered this Academic year. Contact your department for confirmation."
+      ]
+    },
+    {
+      "tag": "graduation_schedule",
+      "patterns": [
+        "When is the next graduation?", "Graduation date?", "I want to know the graduation schedule",
+        "Is graduation this year?", "When is graduation?", "Graduation ceremony"
+      ],
+      "responses": [
+        "The next graduation is expected around July. Official dates will be announced soon. for updates follow: https://www.cbu.ac.zm",
+        "Graduation dates vary each year. Keep checking the Academic Office bulleting orfor updates follow: https://www.cbu.ac.zm",
+        "You can contact the Exams Office for precise details, especially if you're due to graduate or for updates follow: https://www.cbu.ac.zm."
+      ]
+    },
+    {
+      "tag": "exam_permission_requirements",
+      "patterns": [
+        "I want to write exams", "How do I get permission to write exams?", "What are the requirements to write examinations?",
+        "Help me get permission to sit for exams", "What should I do to be allowed to write exams?",
+        "Steps to be allowed to write exams", "Applying to write exams", "Ready to write exams"
+      ],
+      "responses": [
+        "To get permission to write examinations, please follow these steps:\n1. Write a letter to request to be allowed to write exams.\n2. Pay K500 into the tuition fee account.\n3. Attach the registration form.\n4. Attach a statement from student finance.",
+        "You need to:\n1. Write a request letter.\n2. Pay K500 into the tuition fee account.\n3. Attach your registration form.\n4. Get and attach a statement from student finance."
+      ]
+    },
+    {
+      "tag": "letter_of_completion",
+      "patterns": [
+        "How do I get a letter of completion?", "I need a letter to show I've completed my studies",
+        "Can I request a letter of completion online?", "Where can I get a completion letter?",
+        "Request completion letter", "Proof of completion", "Finished my program"
+      ],
+      "responses": [
+        "You can request a letter of completion through the student portal or by visiting Academic Affairs in person.",
+        "Make sure your account is cleared and results are finalized before making the request.",
+        "Letters of completion are usually issued within 3–5 working days after request."
+      ]
+    },
+    {
+      "tag": "clearance_debt",
+      "patterns": [
+        "I have a balance, can I register?", "What if I owe school fees?", "Can I clear after registration?",
+        "Debt clearance process", "I owe money", "Outstanding fees", "Clearance letter", "Fee clearance", " a balance"
+      ],
+      "responses": [
+        "You need to clear outstanding fees or get a payment plan from the Accounts Office before proceeding with registration.",
+        "If you're in debt, visit the Accounts Office to arrange payment options or request an official clearance letter.",
+        "Registration may be restricted for students with unpaid balances unless special clearance is granted."
+      ]
+    },
+    {
+      "tag": "change_program",
+      "patterns": [
+        "How do I change my program?", "I want to switch my course", "Can I move to another department?",
+        "Change of study program process", "Transfer to another program", "Switch course","change my program","change of program"
+      ],
+      "responses": [
+        "You can apply for a change of program through the Academic Office. Ensure you meet the requirements for the new program and submit a formal request during the allowed window.",
+        "Visit Academic Affairs and request a program change form. Approval is subject to academic performance and space availability in the new department."
+      ]
+    },
+    {
+      "tag": "forgot_portal_password",
+      "patterns": [
+        "I forgot my student portal password", "Can't log into my student account", "How do I reset my portal password?",
+        "SIS login help", "Reset password", "Locked out of account", "Password not working","forgot password"
+      ],
+      "responses": [
+        "Click on 'Forgot Password' on the Student login page and follow the steps to reset using your registered email.",
+        "If you don't receive a reset email, visit ICT Services on campus with your NRC and student number."
+      ]
+    },
+   
+    {
+      "tag": "contact_academic",
+      "patterns": [
+        "Who can I contact for academic help?", "Academic Affairs phone number?", "How do I reach the Registrar?",
+        "Help with academic matters", "Registrar Academic", "Academic office contact", "help line","contact number","number to call"
+      ],
+      "responses": [
+        
+            "You can also submit concerns through this system no need of going there just submit your complaint or query on the user dashboard after login."
+      ]
+    },
+    {
+      "tag": "covid_vaccination",
+      "patterns": [
+        "Is there a vaccination center at CBU?", "Can I get vaccinated at CBU?", "CBU vaccine center",
+        "Covid vaccination at university", "Get vaccinated on campus", "Vaccination for staff",
+        "Vaccination for students", "Is CBU giving vaccines?"
+      ],
+      "responses": [
+        "Yes! The Copperbelt University, with support from the Ministry of Health, has set up a COVID-19 vaccination center at the CBU Clinic on campus. All staff, students, and surrounding communities are encouraged to get vaccinated.",
+        "The Covid-19 Vaccination center is located at the CBU Clinic within the University premises. Get vaccinated and reduce the risk of infection."
+      ]
+    },
+    {
+      "tag": "academic_calendar_info",
+      "patterns": [
+        "When does registration start?", "academic calendar dates", "sessional dates Riverside campus",
+        "when are exams scheduled", "How many semesters are there?", "Academic year structure",
+        "When do semesters start and end?", "When is the long holiday?", "Semester dates","registration start"
+      ],
+      "responses": [
+             "Registration begin in November; the Calendar is published online via the student portal or the updates are on the main website Visit https://ecampus.cbu.ac.zm"
+      ]
+    },
+
+{
+  "tag": "e_campus",
+  "patterns": [
+    "What is e-Campus?",
+    "Online learning at CBU",
+    "Distance learning programs",
+    "eCampus CBU",
+    "Can I study online?",
+    "CBU online courses",
+    "e-Campus portal",
+    "ecampus.cbu.ac.zm"
+  ],
+  "responses": [
+    "CBU e-Campus offers online and distance learning programs, especially at postgraduate level. Visit https://ecampus.cbu.ac.zm for more.",
+    "You can pursue diplomas and degrees online via CBU's e-Campus platform. Programs include MSc, MBA, and professional courses."
+  ]
+},
+
+
+    {
+      "tag": "bursaries_and_loans",
+      "patterns": [
+        "How to apply bursary", "student loans", "financial assistance", "bursaries info",
+        "Need financial aid", "Scholarships at CBU", "Get a loan for school"
+      ],
+      "responses": [
+        "Visit the Bursaries Office onsite or online via cbu.ac.zm → Bursaries. Submit proof of need; bursaries and loans info is on the website."
+      ]
+    },
+
+     {
+      "tag": "finance_office_contact",
+      "patterns": [
+        "How do I contact the finance office?", "I need help with my payments", "Finance office details",
+        "Where is student finance?", "Accounts office", "Pay school fees", "Student finance number"
+      ],
+      "responses": [
+        "You can contact the Finance Office via +260 212 290816 or visit the Accounts Department next to the Administration Block.",
+        "For fee inquiries, email student.finance@cbu.ac.zm or check notices on your SIS account."
+      ]
+    },
+    
+
+    {
+  "tag": "schools",
+  "patterns": [
+    "What schools are there at CBU?",
+    "List of schools at CBU",
+    "School of Engineering",
+    "School of Health Sciences",
+    "Built Environment school",
+    "Which faculties are at CBU?",
+    "Natural Resources school",
+    "Business and Economics school",
+    "Education department"
+  ],
+  "responses": [
+    "Copperbelt University has several schools including:\n- School of Engineering\n- School of Health Sciences\n- School of Natural Resources\n- School of Business and Economics\n- School of Built Environment\n- School of Education\n- School of Mathematics and Natural Sciences\n- School of Humanities & Social Sciences",
+    "Visit https://www.cbu.ac.zm/schoolsAndUnits to explore all schools and units at CBU."
+  ]
+},
+
+{
+  "tag": "applications",
+  "patterns": [
+    "I want to apply now",
+    "How do I apply?",
+    "Apply now",
+    "Start my application",
+    "Where do I apply?",
+    "I'm ready to apply",
+    "Want to join CBU",
+    "How to start?",
+    "how can i apply?",
+    "how can i apply",
+    "how do i apply?",
+    "how do i apply",
+    "Application link?",
+    "Click apply now"
+  ],
+  "responses": [
+    "YOUR CAREER JOURNEY BEGINS HERE: APPLY NOW at https://www.cbu.ac.zm/opus/applyNew",
+    "Great! Start your application here: https://www.cbu.ac.zm/opus/applyNew",
+    "Visit https://www.cbu.ac.zm and click 'Apply Now' to begin your admission process."
+  ]
+},
+{
+  "tag": "contact",
+  "patterns": [
+    "How do I contact CBU?",
+    "University phone number",
+    "Email for CBU",
+    "CBU admin contact",
+    "Who do I call for help?",
+    "Contact details for CBU",
+    "Main office number",
+    "Send a message to CBU"
+  ],
+  "responses": [
+    "You can contact Copperbelt University via:\n Phone: +260 212 290816 / +260 212 290817\n Email: info@cbu.ac.zm\n Address: Jambo Drive, Riverside, Kitwe, Zambia",
+    "For specific departments, visit https://www.cbu.ac.zm/contact-us for full contact details."
+  ]
+},
+
+
+ {
+      "tag": "hostel_application",
+      "patterns": [
+        "How do I apply for a hostel?",
+        "Where do I apply for accommodation?",
+        "How can I book a hostel room?",
+        "What is the process of hostel application?",
+        "Is hostel application online or physical?",
+
+        "How do I apply for a hostel",
+        "Where do I apply for accommodation",
+        "How can I book a hostel room?",
+        "What is the process of hostel application",
+        "Is hostel application online or physical"
+        
+      ],
+      "responses": [
+        "You can apply for a hostel via the CBU student portal. Navigate to the Accomodation section check if the application is open and submit your application and wait if you are given  room it will show the room number once again when you check accomodation status. Note: Fee clearance is required for eligibility."
+      ]
+    },
+    {
+      "tag": "change_hostel",
+      "patterns": [
+        "Can I change my hostel after being allocated?",
+        "I want to switch hostel rooms",
+        "How to request hostel change?",
+        "Is it possible to change my hostel",
+        "Can I change my hostel after being allocated",
+        "I want to switch hostel rooms",
+        "How to request hostel change",
+        "Is it possible to change my hostel"
+
+      ],
+      "responses": [
+        "Hostel changes require a formal request to the accomodation office or here you can request as a complaint or query and track the progress state clearly the reason why you want to change or switch the rooms. Approval is based on availability and justification."
+      ]
+    },
+    {
+      "tag": "tuition_payment",
+      "patterns": [
+        "How do I pay school fees?",
+        "What is the tuition fee payment method?",
+        "Where should I deposit my fees?",
+        "How do I clear my school fees?",
+        "How to upload proof of payment?",
+          "How do I pay school fees",
+        "What is the tuition fee payment method",
+        "Where should I deposit my fees",
+        "How do I clear my school fees",
+        "How to upload proof of payment"   
+
+      ],
+      "responses": [
+        "Fees should be paid via designated banks or mobile money channels listed on your student portal. Upload proof of payment for verification can be done here on the same system when loading a query or complaint there is part where you can upload a document as a proof just make sure its in the format needed."
+      ]
+    },
+    {
+      "tag": "course_registration",
+      "patterns": [
+        "How do I register for program?",
+        "When does course registration start?",
+        "Course registration deadline?",
+        "Where do I register for my classes?",
+        "Can I register now?"
+      ],
+      "responses": [
+        "Course registration is done through your student portal. It opens at the beginning of each academic year and they do announce on the calender which can be printed on the student portal when is the late registration and the penalty fee.Note:: Late registration may attract a penalty."
+      ]
+    },
+    {
+      "tag": "forgot_password",
+      "patterns": [
+        "I forgot my password",
+        "How can I reset my portal password?",
+        "Portal says wrong password",
+        "I can’t log into my student portal",
+        "Reset login credentials",
+
+        "I forgot my password",
+        "How can I reset my portal password",
+        "Portal says wrong password",
+        "I can’t log into my student portal",
+        "Reset login credentials"
+      ],
+      "responses": [
+        "Click 'Forgot Password' on the portal login page. A reset link will be sent to your registered email and follow instructions."
+      ]
+    },
+    {
+      "tag": "exam_results",
+      "patterns": [
+        "Where do I check my results?",
+        "How can I view exam results?",
+        "Results are not showing on the portal",
+        "When are results released?",
+        "My results are missing",
+        "Where do I check my results",
+        "How can I view exam results",
+        "Results are not showing on the portal",
+        "When are results released",
+        "My results are missing"
+      ],
+      "responses": [
+        "Exam results are available under the Examination section of your portal after the Senate sits and the notification is always shared on social media on the actual day or check the school official websites for notifications at:  https://www.cbu.ac.zm. Contact the Exams Office if they’re missing or present a complaint and they will respond to you."
+      ]
+    },
+    {
+      "tag": "complaint_submission",
+      "patterns": [
+        "How do I complain to admin?",
+        "Where do I report a problem?",
+        "I have an issue to raise",
+        "Can I talk to someone about a problem?",
+        "Submit complaint to CBU",
+        "How do I complain to admin",
+        "Where do I report a problem",
+        "I have an issue to raise",
+        "Can I talk to someone about a problem",
+        "Submit complaint to CBU"
+      ],
+      "responses": [
+        "You can lodge your complaint via this chatbot or use the student portal which is here once you close this chat. For unresolved issues, a ticket number is generated for tracking and follow-up and you will be able to track the progress."
+      ]
+    },
+    {
+      "tag": "exam_clearance",
+      "patterns": [
+        "How do I get exam clearance?",
+        "My portal says I’m not cleared for exams",
+        "How to know if I am cleared?"
+      ],
+      "responses": [
+        "under examination on the portal, you can choose check the results but if you have an outstanding balance you will be asked to first clear in other words you can't check minus finishing the payments."
+      ]
+    },
+    {
+      "tag": "defer_studies",
+      "patterns": [
+        "Can I drop from school and come continue next year",
+        "What is the process on how to go about dropping",
+        "I want to take a break from school"
+      ],
+      "responses": [
+        "To defer, write to the Dean of your school with a valid reason and wait for the feed back or can.  Please take note: You must clear all outstanding fees before approval is granted."
+      ]
+    },
+    {
+      "tag": "change_programme",
+      "patterns": [
+        "How can I change my programme?",
+        "I want to switch schools",
+        "What’s the procedure to change courses?",
+        "Can I transfer to a different program?",
+        
+        "How can I change my programme",
+        "I want to switch schools",
+        "What’s the procedure to change courses",
+        "Can I transfer to a different program"
+      ],
+      "responses": [
+        "You need to submit a written request to your academic department or on this same platform present a request, query, stating the reasons for changing the programs and wait for the feed back on this student portal. If approved, the change must be ratified by the Senate."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "When does the semester start?",
+        "What are the academic calendar dates?",
+        "When does school reopen?",
+        "How long is the semester?",
+        "When are the holidays?",
+        "When does the semester start",
+        "What are the academic calendar dates",
+        "When does school reopen",
+        "How long is the semester",
+        "When are the holidays"
+      ],
+      
+      "responses": [
+        "You can find the full academic calendar on the CBU website:https://www.cbu.ac.zm or student portal under Notices or Downloads section."
+      ]
+    },
+
+{
+  "tag": "operating hours",
+  "patterns":[
+    "what are the operating hours for academics offices",
+    " operating hours"
+  ],
+  "responses":["The operation hours are morning:10:30-12:00hrs and Afternoon: 14:30-16:00hrs"
+]
+},
+
+
+{
+      "tag": "certificate_collection",
+      "patterns": [
+        "How do I collect my certificate?",
+        "Where do I get my academic certificate from?",
+        "What are the requirements to collect my certificate?",
+        "Can someone else collect my certificate?",
+        "I'm not around, can my friend get my certificate for me?",
+        "What should I take to collect my certificate?",
+        "How do I collect on behalf of a graduate?",
+         "How do I collect my certificate?",
+        "Where do I get my academic certificate from",
+        "What are the requirements to collect my certificate",
+        "Can someone else collect my certificate",
+        "I'm not around, can my friend get my certificate for me",
+        "What should I take to collect my certificate",
+        "How do I collect on behalf of a graduate"
+     
+      ],
+      "responses": [
+        "Yes to collect your academic certificate, bring:\n1. Original clearance form\n2. Copy of your NRC\n\nIf someone is collecting on your behalf:\n1. Letter authorizing the person\n2. Original clearance form\n3. Copy of your NRC\n4. Copy of the collector's NRC"
+      ]
+    },
+    {
+      "tag": "certificate_delay_notice",
+      "patterns": [
+        "Why are our certificates not ready?",
+        "When will the 2024 certificates be available?",
+        "Are the 2024 December certificates out?",
+        "Why is the collection delayed for 2024 certificates?",
+        "What's the reason for the certificate delay?",
+        
+        "certificates not ready",
+        "When will the certificates be available",
+        "certificates available",
+        "collection delayed for 2024 certificates",
+        "What's the reason for the certificate delay?"
+      ],
+      "responses":[
+        "Certificates for graduates of 13th December 2024 are not yet ready due to unforeseen circumstances. The University regrets any inconvenience. Stay tuned for further updates amd keep checking the notifications on the official website:https://www.cbu.ac.zm."
+      ]
+    },
+
+
+ {
+      "tag": "certificate_delay_notice",
+      "patterns": [
+        "Why are our certificates not ready?",
+        "When will the 2024 certificates be available?",
+        "Are the 2024 December certificates out?",
+        "Why is the collection delayed for 2024 certificates?",
+        "What's the reason for the certificate delay?",
+        
+        "Why are our certificates not ready",
+        "When will the 2024 certificates be available",
+        "Are the 2024 December certificates out",
+        "Why is the collection delayed for 2024 certificates",
+        "What's the reason for the certificate delay?"
+      ],
+      "responses":[
+        "Certificates for graduates of 13th December 2024 are not yet ready due to unforeseen circumstances. The University regrets any inconvenience. Stay tuned for further updates amd keep checking the notifications on the official website:https://www.cbu.ac.zm."
+      ]
+    },
+
+
+
+    {
+      "tag": "opus_automation",
+      "patterns": [
+        "How do I apply for a transcript?",
+        "Can I still submit hard copies for change of programme?",
+        "Are re-admission forms still manual?",
+        "Is OPUS fully online now?",
+        "Can I withdraw from the course using a letter?",
+        "How do I apply for a transcript",
+        "Can I still submit hard copies for change of programme",
+        "Are re-admission forms still manual",
+        "Is OPUS fully online now",
+        "Can I withdraw from the course using a letter"
+      ],
+      "responses": [
+        "All applications for transcript, programme change, re-admission, exemption, and change of study mode must now be submitted via OPUS. No hard copies will be accepted."
+      ]
+    },
+    {
+      "tag": "permission_to_write_exam",
+      "patterns": [
+        "How do I get permission to write exams?",
+        "What should I submit for permission to write?",
+        "I need permission to sit for exams, what’s the process?",
+        "What are the steps to get exam permission?",
+        "Can I still write exams if I haven't paid full fees?",
+        
+        "How do I get permission to write exams",
+        "What should I submit for permission to write",
+        "I need permission to sit for exams, what’s the process",
+        "What are the steps to get exam permission",
+        "Can I still write exams if I haven't paid full fees"
+      ],
+      "responses": [
+        "To request permission to write exams can be submitted physically or via the complaint system:\n1. Write a request letter\n2. Pay K500 using Bill Muster and attach the receipt\n3. Attach your registration form\n4. Attach a signed & stamped statement from Student Finance"
+      ]
+    },
+    {
+      "tag": "exam_session_notice",
+      "patterns": [
+        "When are sessional exams starting?",
+        "Has the exam timetable been released?",
+        "What are the exam rules this year?",
+        "What do I need to carry to the exam room?",
+        "Are calculators allowed in exams?",
+        
+        "When are sessional exams starting",
+        "Has the exam timetable been released",
+        "What are the exam rules this year",
+        "What do I need to carry to the exam room",
+        "Are calculators allowed in exams"
+      ],
+      "responses": [
+        "Sessional exams are conducted according to the university exam schedule and sessional examination time table are shared to classreps from each school. Students must:\n- Be seated 15 minutes before the exam\n- Carry student ID \n- No calculators with formula storage\n- Bags & phones are not allowed inside the exam room"
+      ]
+    },
+{
+      "tag": "automated_applications",
+      "patterns": [
+        "How do I apply for re-admission or transcript?",
+        "Where do I apply for withdrawal or exemption?",
+        "Can I submit a hardcopy for change of study mode?",
+        "Is the application process automated now?",
+        "Do I need to go to the office to change programs",
+        "How do I apply for re-admission or transcript",
+        "Where do I apply for withdrawal or exemption",
+        "Can I submit a hardcopy for change of study mode",
+        "Is the application process automated now",
+        "Do I need to go to the office to change programs"
+      ],
+      "responses": [
+        "All applications for withdrawals, exemptions, re-admissions, transcript, change of programme or study mode must be done online via the OPUS system. Hard copies are no longer accepted."
+      ]
+    },
+
+
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I didn't quite get that. Could you rephrase your question or mention something like admissions, results, fees, or registration?",
+        "Sorry, I'm trained on academic and exam-related topics. Can you clarify your request?",
+        "I can help with admissions, results, fees, registration, and complaints. Please ask about those."
+      ]
+    }
+  ]
+}
